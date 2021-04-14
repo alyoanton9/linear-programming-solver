@@ -55,6 +55,7 @@ class SimplexTest(TestCase):
       self._are_equal_answers(actual, expected), True
     )
 
+
   def test3(self):
     c = np.array([-1, -2, -1, 3, -1])
     A = np.array([
@@ -73,6 +74,7 @@ class SimplexTest(TestCase):
     self.assertEqual(
       self._are_equal_answers(actual, expected), True
     )
+
 
   def test4(self):
     c = np.array([-1, -1, -1, 1, -1])
@@ -105,6 +107,7 @@ class SimplexTest(TestCase):
     with self.assertRaises(SingularSystem):
       self._solve(c, A, b)
 
+
   def test6(self):
     c = np.array([-1, -1, 1, -1, 2])
     A = np.array([
@@ -123,6 +126,7 @@ class SimplexTest(TestCase):
     self.assertEqual(
       self._are_equal_answers(actual, expected), True
     )
+
 
   def test7(self):
     c = np.array([-1, 2, -1, -1])
