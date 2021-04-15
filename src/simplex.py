@@ -123,7 +123,7 @@ class SimplexSolver():
 
       iteration += 1
 
-    # if the algorithm don't finish after 'max_iteration'
+    # if the algorithm doesn't finish after 'max_iteration'
     # then the system is singular
     raise SingularSystem
 
