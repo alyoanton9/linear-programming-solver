@@ -1,4 +1,4 @@
-# Simplex Method
+# Linear Programming Solver
 
 ## Description
 
